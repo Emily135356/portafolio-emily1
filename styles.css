@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff; /* Color predeterminado para el texto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido */
+}
+
+.imagen-inicio {
+    width: 300px; /* Ajusta el tamaño según prefieras */
+    height: auto;
+    margin-bottom: 20px; /* Añade un espacio debajo de la imagen */
+}
+
+section {
+    margin: 20px 0;
+    text-align: center; /* Centra el texto dentro de la sección */
+}
+
+.hidden {
+    display: none; /* Oculta las secciones no activas */
+}
+
+.motivational {
+    color: #FF00FF; /* Fucsia fosforescente solo para las frases motivadoras */
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido del formulario */
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 90%; /* Ajusta el ancho de los campos del formulario */
+}
+
+button {
+    padding: 10px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a5a5a;
+}

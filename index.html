@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Emily Mailyn Reyes Maldonado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al Portafolio de Emily</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#" onclick="showSection('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="showSection('sobre-mi')">Sobre mí</a></li>
+                <li><a href="#" onclick="showSection('proyectos')">Proyectos</a></li>
+                <li><a href="#" onclick="showSection('habilidades')">Habilidades</a></li>
+                <li><a href="#" onclick="showSection('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="intro">
+            <img src="img/1281519.jpg" alt="Dibujos de personajes" class="imagen-inicio" />
+            <h2>Bienvenidos al Portafolio de Emily</h2>
+            <p>Aquí encontrarás información sobre mí, mis proyectos y habilidades en desarrollo web.</p>
+        </section>
+
+        <section id="sobre-mi" class="hidden">
+            <h2>Sobre mí</h2>
+            <p><strong>Nombre:</strong> Emily Mailyn Reyes Maldonado</p>
+            <p><strong>Edad:</strong> 29 años</p>
+            <p><strong>Fecha de Nacimiento:</strong> 22 de marzo</p>
+            <p><strong>Lugar de Residencia:</strong> Guayaquil, Ecuador</p>
+            <p><strong>Objetivo:</strong> Desarrolladora web con pasión por crear experiencias interactivas y accesibles.</p>
+            <p class="motivational">“Cada día es una nueva oportunidad para aprender y crecer.”</p>
+        </section>
+
+        <section id="proyectos" class="hidden">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><a href="#">Proyecto 1: Aplicación de Tareas - Una app para gestionar tareas diarias.</a></li>
+                <li><a href="#">Proyecto 2: Portafolio Personal - Un sitio para mostrar mis habilidades y proyectos.</a></li>
+                <li><a href="#">Proyecto 3: Juego de Adivinanza - Un juego interactivo para adivinar palabras.</a></li>
+                <li><a href="#">Proyecto 4: Blog Personal - Espacio para compartir mis pensamientos y experiencias.</a></li>
+                <li><a href="#">Proyecto 5: Sitio de Recetas - Repositorio de mis recetas favoritas.</a></li>
+                <li><a href="#">Proyecto 6: Aplicación de Clima - App para conocer el clima actual y pronósticos.</a></li>
+            </ul>
+            <p class="motivational">“La creatividad es la inteligencia divirtiéndose.”</p>
+        </section>
+
+        <section id="habilidades" class="hidden">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Desarrollo de Aplicaciones Web</li>
+                <li>Responsive Design</li>
+            </ul>
+            <p class="motivational">“Las habilidades son solo la base; el esfuerzo es lo que te lleva al éxito.”</p>
+        </section>
+
+        <section id="contacto" class="hidden">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Teléfono: <a href="tel:0999407212">0999407212</a></p>
+            <a href="https://wa.me/0999407212" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp Icon" width="30" />
+            </a>
+            <p class="motivational">“La comunicación es la clave para el éxito.”</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Emily Mailyn Reyes Maldonado. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
